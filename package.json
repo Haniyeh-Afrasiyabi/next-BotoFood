@@ -1,0 +1,18 @@
+{
+  "name": "botofood",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve-json":"json-server --watch db.json --port 4000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "next": "15.3.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
